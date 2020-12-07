@@ -1,0 +1,1 @@
+<?php phpinfo(); // https://www.getpostman.com/collections/37ba685bd0b93fc3d6f5 ?>

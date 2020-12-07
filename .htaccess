@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond $1 !^(index\.php|javascript|robots\.txt)
+RewriteRule ^(.*)$ /customscript/blink_mobility/index.php?/$1 [L]
+
+AddHandler php72-fcgi .php

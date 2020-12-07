@@ -1,0 +1,217 @@
+
+span.req {
+	color: #ff0000;
+}
+ul.list-unstyled li{
+	display: none;
+}
+ul.list-unstyled li:first-child{
+	display: block !important;
+}
+a.action-a{
+	padding: 4px 8px;
+	border: 1px solid #e5e5e5;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+	vertical-align: middle; 
+}
+.cc-addon, .cc-addon-label{
+	position: absolute;
+	left: 16px;
+	top: 1px;
+	padding: 8px;
+	background: #f3f3f3;
+	border-right: 1px solid #ccd1d9;
+	font-weight: 500;
+	height: 33px;
+}
+.cc-addon-label{
+	color: #00457f;
+	border-right: 1px #00457f;
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+	text-align: right;
+	margin-top: 10px;
+}
+.card-content a.btn.btn-xs.btn-default {
+	background: white;
+	border: 1px solid #00000030;
+}
+.form-control {
+	line-height: 18px;
+	padding: 6px 12px;
+	height: 35px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type=number] {
+  -moz-appearance:textfield;
+}
+label[id*="-error"]{
+	display: none!important;
+}
+.blink{
+   animation: opacity 2s ease-in-out 2s infinite;
+  opacity: 1;	
+}
+table.mceLayout{
+	width: 100% !important;
+}
+.note{
+	color: #555; 
+	font-size: 12px;
+}
+.select2-selection__clear{
+	display: none !important;
+}
+.select2-container .select2-selection--multiple{
+	min-height: 35px !important;
+}
+.select2-container--default .select2-selection--multiple{
+	border: 1px solid #ccd1d9 !important;
+	border-radius: 2px !important;
+   padding: 2px 0 0px 10px;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+	border-radius: 2px !important;
+}
+.select2-container--default.select2-container--focus .select2-selection--multiple{
+	border: 1px solid #00aeff!important;
+	box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.12) !important
+}
+
+.select2-container .select2-selection--single{
+	min-height: 35px !important;
+}
+
+.select2-container--default .select2-selection--single{
+	border: 1px solid #ccd1d9 !important;
+	border-radius: 2px !important;
+}
+.has-error .select2-container--default .select2-selection--single{
+	border: 1px solid #ea4335 !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__choice{
+	border-radius: 2px !important;
+	margin-top: 8px !important;
+}
+.select2-container--default.select2-container--focus .select2-selection--single{
+	border: 1px solid #00aeff!important;
+	box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.12) !important
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+	color: #555 !important;
+	line-height: 35px !important;
+	margin-left: 5px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+	height: 35px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b{
+	color: #555 !important;
+}
+
+#clear-filter{
+	width: 65%;
+	font-weight: 500;
+	text-align: center;
+	cursor: pointer;
+   margin: 0;
+}
+#mCSB_1_container .navigation {
+	border-top: 1px solid #ffcc293b;
+}
+table.display td:last-child, table.display th:last-child{
+	text-align:center;
+}
+.tbl-img{
+	border: 1px solid #e5e5e5;
+	padding: 2px;
+	object-fit: cover;
+	width: 100px;
+	height: 100px;
+}
+.dropdown-menu li{
+	cursor: pointer;
+}
+.files{
+	margin: 8px 0;
+}
+.box-title{
+	text-transform: uppercase;
+}
+
+.js__isotope_item{
+	float: left;
+	text-align: center;
+	margin-right: 5px;
+}
+.gallery-grid{
+	object-fit: cover;
+	width: 125px;
+	height: 125px;
+}
+.video-grid{
+	height: 200px;
+	margin-bottom: -5px;
+}
+p.form-control{
+	height: auto;
+	min-height: 30px;
+}
+.form-control{
+  max-width: 100%;
+}
+label.form-control{
+	height: auto;
+	min-height: 35px;
+}
+
+ul.custom-nav li a{
+	color: #304ffe;
+	font-weight: 500;
+}
+ul.custom-nav li a:hover{
+	color: #304ffe;
+}
+ul.custom-nav li.active a{
+	color: #00457f !important;
+}
+.tab-content > ul.pager li.next a, li.previous a{
+	color: #333333;
+	border: 1px solid #000;
+}
+.pager .disabled >a, .pager .disabled>a:focus, .pager .disabled>a:hover, .pager .disabled>span{
+	display: none;
+}
+p.detail{
+   color: #26556e;
+   margin: 0;
+}
+
+/** Filters **/
+.filter-panel-cover{
+   border: 1px solid #ddd;
+   margin-bottom: 20px;
+}
+.filter-accordion{
+   width: 100%;
+   text-align: left;
+   padding: 5px 12px;
+   border: none;
+   font-weight: 500;
+   background: #fff;
+}
+.filter-panel{
+   background-color: #fff;
+   border-radius: 4px;
+   padding: 15px 10px;
+   display:none;
+}
+/** Filters **/
